@@ -1,0 +1,35 @@
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+header,
+footer,
+.hero-section {
+    background-color: #1F2937;
+}
+
+header {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.header-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px
+}
+
+.header-links li a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
