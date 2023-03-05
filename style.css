@@ -38,7 +38,8 @@ body {
     gap: 20px
 }
 
-.header-links li a {
+.header-links li a,
+.hero-btn a {
     text-decoration: none;
     color: #F9FAF8;
 }
@@ -70,7 +71,7 @@ body {
 
 .hero-btn,
 .cta-btn {
-    background-color: #3882f6;
+    background-color: #4726a3;
     border-radius: 10px;
     padding: 10px 45px;
     color: #F9FAF8;
@@ -107,7 +108,7 @@ body {
     padding: 48px 0;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 48px;
+    gap: 100px;
 }
 
 .illustration {
