@@ -12,7 +12,7 @@ body {
 
 .first-section,
 .footer {
-    background-color: #1F2937;
+    background-color: #372a1f;
     color: #F9FAF8;
 }
 
@@ -39,7 +39,8 @@ body {
 }
 
 .header-links li a,
-.hero-btn a {
+.hero-btn a,
+.cta-btn a {
     text-decoration: none;
     color: #F9FAF8;
 }
@@ -71,10 +72,9 @@ body {
 
 .hero-btn,
 .cta-btn {
-    background-color: #4726a3;
+    background-color: #75441c;
     border-radius: 10px;
     padding: 10px 45px;
-    color: #F9FAF8;
     border: 1px solid #F9FAF8;
     font-size: 18px;
 }
@@ -101,7 +101,7 @@ body {
 .information-header-text {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    color: #372f1f;
 }
 
 .illustration-group {
@@ -148,7 +148,7 @@ body {
 }
 
 .cta-section {
-    background-color: #3882f6;
+    background-color: #372a1f;
     margin: 120px 180px;
     padding: 48px;
     border-radius: 10px;
@@ -159,7 +159,8 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0 48px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .cta-text {
